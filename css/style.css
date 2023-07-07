@@ -1,0 +1,320 @@
+
+.navbar {
+    color: #ffffff;
+    background-color: #FDB913;
+}
+
+@font-face {
+    font-family: anand;
+    src: url(../Titan_One/TitanOne-Regular.ttf);
+
+}
+
+.ana{  font-family: anand;
+    font-size: 60px;
+    font-weight: 40px;}
+
+    .bigfont{font-family: anand;
+        font-size: 40px;
+        font-weight: 20px;}
+    
+
+@font-face {
+    font-family: lexend;
+    src: url(../Lexend_Peta/LexendPeta-VariableFont_wght.ttf);
+    
+}
+
+.lex{font-family: lexend;
+font-size: 60px;
+font-weight:30px;}
+
+
+
+.nav-item a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bg-img {
+    background-image: url(../images/vegetables-set-left-black-slate.jpg);
+    height:600px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.food {
+    padding: 10px;
+}
+
+.food h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+.food p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.cat h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #FDB913;
+    margin-top: 20px;
+}
+
+.Supermart {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.Supermart h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Supermart p {
+    font-size: 14px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.krish:hover{background-color: #008020;}
+
+.bg-img1{
+    background-image: url(../images/salad-2068220_1920.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center
+}
+
+
+@media (max-width:768px) {
+    .ana{font-size: 40px;}
+    
+}
+@media (max-width:425px) {
+    .addcart{}}
+    
+
+
+
+/* +++++=====================+++++========product css start=========+++++===================+++++ */
+
+
+
+
+@media (max-width:768px) {
+    
+    .hide{display: none;}
+    .bg-second{width: 100%;}
+   
+    
+}
+
+@media (max-width:500px){
+    .wd{width: 50px; height: 30px;}
+    .st{position: sticky;
+        top: 0;
+        z-index: 8888888;}
+
+}
+
+.dropdown-menu {
+    min-width: 16rem;
+    
+}
+
+
+.bg-prodimg{
+    background-image: url(../images/grilled.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+
+/* .........................box........................ */
+.img img{width: 100%;}
+ .box{background: #ffffff; padding: 25px 0px; }
+.box1{box-shadow: 1px 5px 15px 0 hsla(0, 11%, 93%, 0.8); background: #fff;
+ padding: 15px ; border-radius: 20px; margin: 10px 0px;}
+ .bi-heart-fill{color: rgb(253, 130, 130); font-size: 20px;}
+ .bi-star-fill{color: rgb(243, 223, 5); margin-left: 4px;}
+ .bi-plus-circle-fill{color:  #ff8b8f; font-size: 30px; margin-left: 2rem;}
+
+ .box p{margin-bottom: 0px; font-weight: 600; font-size: 20px;}
+ .box span{font-size: 20px;}
+ .box2{box-shadow: 1px 5px 5px 0 hsla(0, 11%, 93%, 0.8); background: #ffffff;
+    padding: 15px ; border-radius: 20px; margin: 10px 0px;}
+
+
+
+
+
+.hero__categories__all {
+    background: #ffbb01;
+    position: relative;
+    padding: 10px 25px 10px 40px;
+    cursor: pointer;
+}
+
+
+.hero__categories__all i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+
+
+
+.hero__categories ul {
+    border: 1px solid #ebebeb;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.hero__categories li {
+    display: list-item;
+    text-align: start;
+}
+
+.hero__categories ul li {
+    list-style: none;
+    text-decoration: none; 
+    padding-bottom: 10px;
+
+    
+}
+.l-none{list-style: none;}
+.timer-box{
+box-shadow: 2px 5px 2px #ccc5c5;
+border-radius: 5px;
+padding: 10px;
+}
+
+.hero__categories ul li a{
+
+    text-decoration: none;
+    color: black;
+   
+    
+}
+
+
+.bg-second{
+
+    background-image: url(../images/background-33.jpg);
+    height: 450px;
+    background-repeat: no-repeat;
+    width: 70%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.bg-brockly{
+
+    background-image: url(../images/broccoli-g6b0c40e02_640.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.bg-chowmin{
+
+    background-image: url(../images/chowmin.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+
+
+.quantity__input {
+   
+    background-color: #fff;
+    height: 20px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+    display: inline-block;
+    margin: 0 2px;
+    vertical-align: top;
+    
+    
+}
+
+
+.cate, a{text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+color: rgb(255, 196, 0);
+font-weight: 800;
+}
+
+
+
+
+.bg-spcl_prod{
+    background-image: url(../images/viktoria-slowikowska-dark-5677796.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center
+}
+
+
+
+
+
+
+ @media (min-width: 992px){
+
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+}
+
+
+
+
